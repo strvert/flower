@@ -1,1 +1,1 @@
-docker run -it -v $(pwd)/flower:/flower flower sh
+docker exec -it flower sh
