@@ -1,7 +1,7 @@
 FROM alpine:3.9
 
 ENV PATH $PATH:/usr/bin/python3
-EXPOSE 80
+EXPOSE 8000
 
 ADD requirements.txt .
 
